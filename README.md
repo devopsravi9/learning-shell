@@ -1,4 +1,1 @@
-# learning-shell
-
-# learn bash shell
-test line
+shell scripting
