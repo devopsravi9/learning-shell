@@ -10,8 +10,9 @@ echo ${a}
 
 #arthematic substitution
 data= $((3+5))
+
 echo $data
 
 #command substitution
 DATE = $(date +%F)
-echo "today date is $DATE"
+echo today date is $DATE
