@@ -1,5 +1,4 @@
 #!/usr/bin/bash
 
 ls
-
-touch devops
+cat /etc/passwd
