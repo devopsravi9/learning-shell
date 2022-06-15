@@ -28,3 +28,4 @@ echo -e "hii \thello"
 #  cyan            36        \e[36m
 
 echo -e "\e[31m hello world \e[0m"
+
