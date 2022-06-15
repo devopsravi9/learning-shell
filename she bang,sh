@@ -1,1 +1,3 @@
-she bang
+#! /usr/bin/bash
+
+ls
