@@ -1,5 +1,3 @@
-#! /usr/bin/bash/
-
-# this is sample
-
 ls
+
+touch devops
