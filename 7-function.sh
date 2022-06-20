@@ -10,9 +10,12 @@ abc () {
 #declaring another function
 function xyz () {
   echo XYZ function is called
+  c=30
 }
 
 #main program ---------
 a=20
 #calling function
 abc
+echo b=$b
+echo c=$c
