@@ -17,5 +17,6 @@ function xyz () {
 a=10
 #calling function
 abc
+xyz
 echo b=$b
 echo c=$c
