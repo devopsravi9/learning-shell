@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+#declaration of a function
+abc () {
+  echo ABC function is called
+  echo a=$a
+  b=20
+}
+
+#declaring another function
+function xyz () {
+  echo XYZ function is called
+}
+
+#main program ---------
+a=20
+#calling function
+abc
