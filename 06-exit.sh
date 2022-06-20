@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
 lss
-exit
+exit 2
 echo hello world
