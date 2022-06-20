@@ -5,6 +5,7 @@ abc () {
   echo ABC function is called
   echo a=$a
   b=20
+  echo first arguement in function = $1
 }
 
 #declaring another function
@@ -17,6 +18,6 @@ function xyz () {
 a=10
 #calling function
 abc
-xyz
 echo b=$b
-echo c=$c
+echo first arguement in main program= $1
+
