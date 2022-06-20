@@ -16,6 +16,6 @@ function xyz () {
 #main program ---------
 a=10
 #calling function
-abc
+#abc
 echo b=$b
 echo c=$c
