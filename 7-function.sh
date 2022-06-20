@@ -18,6 +18,7 @@ function xyz () {
 a=10
 #calling function
 abc 20000
+abc $1
 echo b=$b
 echo first arguement in main program= $1
 
