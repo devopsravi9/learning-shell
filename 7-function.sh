@@ -17,7 +17,7 @@ function xyz () {
 #main program ---------
 a=10
 #calling function
-abc
+abc 20000
 echo b=$b
 echo first arguement in main program= $1
 
