@@ -14,7 +14,7 @@ function xyz () {
 }
 
 #main program ---------
-a=20
+a=10
 #calling function
 abc
 echo b=$b
