@@ -3,7 +3,8 @@
 # ls
 # cat /etc/passwd
 
-PUBLIC_IP=$(aws ec2 describe-instances --instance-id=i-01fccf0b9d2010e10  --region=us-east-1 --output table | grep PublicIpAddress | awk '{print$4}')
+# PUBLIC_IP=$(aws ec2 describe-instances --instance-id=i-01fccf0b9d2010e10  --region=us-east-1 --output table | grep PublicIpAddress | awk '{print$4}')
+aws ec2 describe-instances --instance-id=i-01fccf0b9d2010e10  --region=us-east-1 --output table | grep PublicIpAddress | awk '{print$4}'
  echo '{
   "Comment": "CREATE/DELETE/UPSERT a record ",
   "Changes": [{
