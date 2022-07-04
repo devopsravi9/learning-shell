@@ -6,7 +6,7 @@
 PUBLIC_IP=$(aws ec2 describe-instances --instance-id=i-01fccf0b9d2010e10  --region=us-east-1 --output table | grep PublicIpAddress | awk '{print$4}')
 #aws ec2 describe-instances --instance-id=i-01fccf0b9d2010e10  --region=us-east-1 --output table | grep PublicIpAddress | awk '{print$4}'
 
-export $PUBLIC_IP
+export PUBLIC_IP
 
  echo '{
   "Comment": "CREATE/DELETE/UPSERT a record ",
