@@ -18,7 +18,7 @@ export PUBLIC_IP
       "TTL": 30,
       "ResourceRecords": [{ "Value": "IPADDRESS"}]
     }}]
-}' | sed -e 's/IPADDRESS/$PUBLIC_IP/' >/tmp/record.json
+}' | sed -i -e 's/IPADDRESS/$PUBLIC_IP/' >/tmp/record.json
 
 cat /tmp/record.json
 
