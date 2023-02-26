@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+
 ls
 cat /etc/passwd
 
@@ -18,6 +19,8 @@ cat /etc/passwd
 # }' | sed -e "s/IPADDRESS/$PUBLIC_IP/" >/tmp/record.json
 #
 # aws route53 change-resource-record-sets --hosted-zone-id Z0462442QH5T6H1KPDGO --change-batch file:///tmp/record.json
+#
+
 #
 
 
